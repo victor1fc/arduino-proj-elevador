@@ -1,4 +1,4 @@
-// Projeto de um elevador com Arduino. Simulado no Tinkercad
+// Projeto de um elevador simulado no Tinkercad.
 //***  Feito por: Victor F.  ******
 //
 
