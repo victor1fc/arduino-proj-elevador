@@ -1,6 +1,4 @@
 // Projeto de um elevador simulado no Tinkercad.
-//***  Feito por: Victor F.  ******
-//
 
 
 //**** BIBLIOTECAS ********
