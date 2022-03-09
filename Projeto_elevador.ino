@@ -47,8 +47,6 @@ void setup()
   strip.setPixelColor(6, 255, 0, 0); // ELEVADOR NO TERREO
   strip.show();
   
-  
-  
   pinMode(10, OUTPUT);
   pinMode(9, OUTPUT);
   pinMode(A5, INPUT);
@@ -60,8 +58,7 @@ void setup()
 
 void loop()
 {
-  
-    
+      
   if(LED==bot){     // se elevador já estiver no andar
     if(menu==0){
       atualiza_lcd();              
@@ -77,12 +74,7 @@ void loop()
     principal();
     
 //    atualiza_pos();
-
-    
- 
-
-  
-  
+      
   Serial.println(bot);
   Serial.println(LED);
   Serial.println(tecla);
@@ -243,8 +235,6 @@ void destino(){
 }
 
 void atualiza_pos2(){ 
-
-
     
     if (LED ==dest){
     
